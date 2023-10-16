@@ -110,8 +110,8 @@ with dpg.window(label="Custom Super Nice Window", tag="Primary Window"):  # Crea
     dpg.add_text("Nu aveti nici un produs in cos.", tag="comanda_actuala")
 
     dpg.add_text(" ", tag="pretul_total")
-
     # printeaza comanda (da callback la print_order)
+
     dpg.add_button(label="Finalizeaza comanda", callback=print_order)
 
 
