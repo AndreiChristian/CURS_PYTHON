@@ -239,145 +239,124 @@
     - B. my_list = list(range(1, 11))
     - C. my_list = [1:10]
     - D. my_list = [range 1..10]  
-   **Răspuns corect: B**
 
 41. **Cum obții valoarea asociată cu cheia 'apple' dintr-un dicționar `my_dict`?**
     - A. my_dict['apple']
     - B. my_dict.get('apple')
     - C. my_dict.value('apple')
     - D. Atât A cât și B  
-   **Răspuns corect: D**
 
 42. **Cum concatenezi două șiruri `str1` și `str2` în Python?**
     - A. str1 + str2
     - B. str1.append(str2)
     - C. str1.concat(str2)
     - D. concatenate(str1, str2)  
-   **Răspuns corect: A**
 
 43. **Cum faci șirul `my_string` să fie scris cu majuscule?**
     - A. my_string.uppercase()
     - B. my_string.toUpper()
     - C. my_string.upper()
     - D. upper(my_string)  
-   **Răspuns corect: C**
 
 44. **Ce face metoda listei `my_list.insert(1, 'x')`?**
     - A. Inserează 'x' la începutul listei
     - B. Inserează 'x' la indexul 1
     - C. Înlocuiește elementul de la indexul 1 cu 'x'
     - D. Adaugă 'x' la sfârșitul listei  
-   **Răspuns corect: B**
 
 45. **Ce va returna funcția `len()` pentru lista `[1, 2, [3, 4]]`?**
     - A. 3
     - B. 4
     - C. 5
     - D. 2  
-   **Răspuns corect: A**
 
 46. **Cum ai converti numărul întreg `42` într-un șir în Python?**
     - A. str(42)
     - B. 42.toString()
     - C. String(42)
     - D. 42 -> str  
-   **Răspuns corect: A**
 
 47. **Cum inversezi o listă `my_list` la fața locului în Python?**
     - A. reversed(my_list)
     - B. my_list.reverse()
     - C. my_list = my_list[::-1]
     - D. Atât B cât și C  
-   **Răspuns corect: D**
 
 48. **Ce face funcția `enumerate()`?**
     - A. Enumeră prin cheile dintr-un dicționar
     - B. Oferă atât indexul cât și valoarea în timp ce iterează printr-o listă
     - C. Numără elementele dintr-un obiect iterabil
     - D. Enumeră prin caracterele dintr-un șir  
-   **Răspuns corect: B**
 
 49. **Ce va returna `list(set([1, 2, 2, 3, 4, 3]))`?**
     - A. [1, 2, 3, 4]
     - B. [1, 2, 2, 3, 4, 3]
     - C. [1, 2]
     - D. [3, 4]  
-   **Răspuns corect: A**
 
 50. **Cum convertești un șir `s` într-o listă cu caracterele sale în Python?**
     - A. s.split('')
     - B. list(s)
     - C. s.toCharList()
     - D. [char for char in s]  
-   **Răspuns corect: B**
 
 51. **Ce reprezintă `self` în metodele unei clase în Python?**
     - A. Referința la clasa în sine
     - B. O variabilă locală
     - C. Referința la obiectul instanțiat
     - D. O constantă globală  
-   **Răspuns corect: C**
 
 52. **Care dintre următoarele metode este apelată când creăm un obiect nou în Python?**
     - A. `__new__()`
     - B. `__create__()`
     - C. `__init__()`
     - D. `__construct__()`  
-   **Răspuns corect: C**
 
 53. **Ce este un constructor în Python?**
     - A. O metodă care construiește clase
     - B. O metodă care inițializează un obiect nou
     - C. O funcție care creează noi metode
     - D. O funcție built-in pentru tipurile de date  
-   **Răspuns corect: B**
 
 54. **Cum definim o metodă statică într-o clasă Python?**
     - A. `@staticmethod`
     - B. `@classmethod`
     - C. `@static`
     - D. `@method_static`  
-   **Răspuns corect: A**
 
 55. **Ce face metoda `__str__` într-o clasă Python?**
     - A. Convertește un obiect într-un string
     - B. Convertește un obiect într-un număr întreg
     - C. Înlocuiește metoda `print` pentru acel obiect
     - D. Compară două obiecte  
-   **Răspuns corect: A**
 
 56. **Ce este moștenirea în OOP?**
     - A. Copierea codului dintr-o clasă în alta
     - B. Extinderea funcționalităților unei clase existente
     - C. Generarea dinamică a codului
     - D. Împărțirea clasei în sub-părți  
-   **Răspuns corect: B**
 
 57. **Ce este un atribut de clasă în Python?**
     - A. O variabilă definită în constructor
     - B. O variabilă asociată cu o instanță a clasei
     - C. O variabilă asociată cu clasa în sine
     - D. O metodă a clasei  
-   **Răspuns corect: C**
 
 58. **Care metoda este folosită pentru a suprascrie un operator în Python?**
     - A. `__override__()`
     - B. `__operator__()`
     - C. `__add__()`
     - D. `__operate__()`  
-   **Răspuns corect: C**
 
 59. **Ce reprezintă `super()` în Python?**
     - A. O funcție care returnează un obiect de tip `super`
     - B. Un apel către metoda din clasa părinte
     - C. Un apel către toate metodele din clasa actuală
     - D. O funcție care face un obiect serializabil  
-   **Răspuns corect: B**
 
 60. **Ce este un mixin în Python?**
     - A. O clasă care furnizează metode ce pot fi folosite în mai multe clase
     - B. O interfață
     - C. O clasă abstractă
     - D. O librărie de metode utilitare  
-   **Răspuns corect: A**
 
