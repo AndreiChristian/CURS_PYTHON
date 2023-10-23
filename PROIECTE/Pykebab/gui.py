@@ -43,7 +43,9 @@ def button_callback(sender, app_data, select):
         add_item(meniu_dict, "meniu")
 
     comanda_actuala = ", ".join(order)
-    dpg.set_value("comanda_actuala", f"Comanda actuala: {comanda_actuala}")
+    dpg.set_value("comanda_actuala", f"""Comanda actuala: 
+                  {kebab_dict['cantitate']} x {kebab_dict['nume']}
+    """)
     dpg.set_value("pretul_total", f"Pretul total: {pretul_total}")
 
 
