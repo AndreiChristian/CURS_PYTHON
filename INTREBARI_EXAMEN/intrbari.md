@@ -125,133 +125,114 @@
     - B. x := 10
     - C. x <- 10
     - D. x = 10  
-   **Răspuns corect: D**
 
 22. **Cum verifici tipul unei variabile `x` în Python?**
     - A. type(x)
     - B. x.type()
     - C. typeof(x)
     - D. check_type(x)  
-   **Răspuns corect: A**
 
 23. **Cum declari o listă goală în Python?**
     - A. my_list = []
     - B. my_list = list{}
     - C. my_list = ()
     - D. my_list = array[]  
-   **Răspuns corect: A**
 
 24. **Cum adaugi elementul 42 la sfârșitul unei liste `my_list`?**
     - A. my_list.add(42)
     - B. my_list.push(42)
     - C. my_list.append(42)
     - D. my_list << 42  
-   **Răspuns corect: C**
 
 25. **Cum accesezi primul element dintr-o listă `my_list`?**
     - A. my_list[0]
     - B. my_list.first()
     - C. my_list[1]
     - D. my_list.get(1)  
-   **Răspuns corect: A**
 
 26. **Ce tip de date este `[1, 'a', 3.5]` în Python?**
     - A. Tuple
     - B. Array
     - C. List
     - D. Dictionary  
-   **Răspuns corect: C**
 
 27. **Cum înlături ultimul element dintr-o listă `my_list`?**
     - A. my_list.remove_last()
     - B. my_list.pop()
     - C. my_list.delete(-1)
     - D. my_list[-1] = None  
-   **Răspuns corect: B**
 
 28. **Care este rezultatul următoarei operații: `3 + 4.5`?**
     - A. 7
     - B. 7.5
     - C. "34.5"
     - D. 3  
-   **Răspuns corect: B**
 
 29. **Ce tip de variabilă este `x` dacă `x = True`?**
     - A. String
     - B. Integer
     - C. Float
     - D. Boolean  
-   **Răspuns corect: D**
 
 30. **Cum verifici lungimea unei liste `my_list`?**
     - A. my_list.size()
     - B. size(my_list)
     - C. my_list.length()
     - D. len(my_list)  
-   **Răspuns corect: D**
 
 31. **Cum creezi un dicționar gol în Python?**
     - A. my_dict = []
     - B. my_dict = {}
     - C. my_dict = ()
     - D. my_dict = set()  
-   **Răspuns corect: B**
 
 32. **Cum adaugi o pereche cheie-valoare `{ 'cheie': 'valoare' }` într-un dicționar `my_dict`?**
     - A. my_dict.add('cheie', 'valoare')
     - B. my_dict['cheie'] = 'valoare'
     - C. my_dict.append('cheie', 'valoare')
     - D. my_dict.put('cheie', 'valoare')  
-   **Răspuns corect: B**
 
 33. **Cum extragi toate cheile dintr-un dicționar `my_dict`?**
     - A. my_dict.keys()
     - B. my_dict.getKeys()
     - C. keys(my_dict)
     - D. my_dict.allKeys()  
-   **Răspuns corect: A**
 
 34. **Cum elimini elementul cu cheia `'cheie'` din dicționarul `my_dict`?**
     - A. my_dict.delete('cheie')
     - B. my_dict.remove('cheie')
     - C. del my_dict['cheie']
     - D. my_dict.pop('cheie')  
-   **Răspuns corect: C**
 
 35. **Cum verifici dacă o listă `my_list` conține elementul `x`?**
     - A. 'x' in my_list
     - B. my_list.contains('x')
     - C. my_list.exists('x')
     - D. 'x' == my_list  
-   **Răspuns corect: A**
 
 36. **Ce face metoda `extend()` pentru o listă în Python?**
     - A. Extinde lista cu un singur element la final
     - B. Extinde lista cu elementele unei alte liste
     - C. Creează o copie extinsă a listei
     - D. Extinde dimensiunea listei fără a adăuga elemente  
-   **Răspuns corect: B**
 
 37. **Cum înlocuiești al doilea element dintr-o listă `my_list` cu valoarea `x`?**
     - A. my_list[1] == x
     - B. my_list(2) = x
     - C. my_list[1] = x
     - D. my_list.replace(1, x)  
-   **Răspuns corect: C**
 
 38. **Care dintre următoarele va sorta o listă `my_list` în ordine descendentă?**
     - A. my_list.sort(desc=True)
     - B. my_list.sort(reverse=True)
     - C. sort(my_list, desc=True)
     - D. my_list.sorted(reverse=True)  
-   **Răspuns corect: B**
 
 39. **Ce tip de date este `[1, 2, 3]` în Python?**
     - A. Tuple
     - B. Array
     - C. List
     - D. Dictionary  
-   **Răspuns corect: C**
 
 40. **Cum creezi o listă `my_list` cu elementele 1 până la 10 folosind funcția `range`?**
     - A. my_list = range(1, 11)
@@ -260,4 +241,143 @@
     - D. my_list = [range 1..10]  
    **Răspuns corect: B**
 
+41. **Cum obții valoarea asociată cu cheia 'apple' dintr-un dicționar `my_dict`?**
+    - A. my_dict['apple']
+    - B. my_dict.get('apple')
+    - C. my_dict.value('apple')
+    - D. Atât A cât și B  
+   **Răspuns corect: D**
+
+42. **Cum concatenezi două șiruri `str1` și `str2` în Python?**
+    - A. str1 + str2
+    - B. str1.append(str2)
+    - C. str1.concat(str2)
+    - D. concatenate(str1, str2)  
+   **Răspuns corect: A**
+
+43. **Cum faci șirul `my_string` să fie scris cu majuscule?**
+    - A. my_string.uppercase()
+    - B. my_string.toUpper()
+    - C. my_string.upper()
+    - D. upper(my_string)  
+   **Răspuns corect: C**
+
+44. **Ce face metoda listei `my_list.insert(1, 'x')`?**
+    - A. Inserează 'x' la începutul listei
+    - B. Inserează 'x' la indexul 1
+    - C. Înlocuiește elementul de la indexul 1 cu 'x'
+    - D. Adaugă 'x' la sfârșitul listei  
+   **Răspuns corect: B**
+
+45. **Ce va returna funcția `len()` pentru lista `[1, 2, [3, 4]]`?**
+    - A. 3
+    - B. 4
+    - C. 5
+    - D. 2  
+   **Răspuns corect: A**
+
+46. **Cum ai converti numărul întreg `42` într-un șir în Python?**
+    - A. str(42)
+    - B. 42.toString()
+    - C. String(42)
+    - D. 42 -> str  
+   **Răspuns corect: A**
+
+47. **Cum inversezi o listă `my_list` la fața locului în Python?**
+    - A. reversed(my_list)
+    - B. my_list.reverse()
+    - C. my_list = my_list[::-1]
+    - D. Atât B cât și C  
+   **Răspuns corect: D**
+
+48. **Ce face funcția `enumerate()`?**
+    - A. Enumeră prin cheile dintr-un dicționar
+    - B. Oferă atât indexul cât și valoarea în timp ce iterează printr-o listă
+    - C. Numără elementele dintr-un obiect iterabil
+    - D. Enumeră prin caracterele dintr-un șir  
+   **Răspuns corect: B**
+
+49. **Ce va returna `list(set([1, 2, 2, 3, 4, 3]))`?**
+    - A. [1, 2, 3, 4]
+    - B. [1, 2, 2, 3, 4, 3]
+    - C. [1, 2]
+    - D. [3, 4]  
+   **Răspuns corect: A**
+
+50. **Cum convertești un șir `s` într-o listă cu caracterele sale în Python?**
+    - A. s.split('')
+    - B. list(s)
+    - C. s.toCharList()
+    - D. [char for char in s]  
+   **Răspuns corect: B**
+
+51. **Ce reprezintă `self` în metodele unei clase în Python?**
+    - A. Referința la clasa în sine
+    - B. O variabilă locală
+    - C. Referința la obiectul instanțiat
+    - D. O constantă globală  
+   **Răspuns corect: C**
+
+52. **Care dintre următoarele metode este apelată când creăm un obiect nou în Python?**
+    - A. `__new__()`
+    - B. `__create__()`
+    - C. `__init__()`
+    - D. `__construct__()`  
+   **Răspuns corect: C**
+
+53. **Ce este un constructor în Python?**
+    - A. O metodă care construiește clase
+    - B. O metodă care inițializează un obiect nou
+    - C. O funcție care creează noi metode
+    - D. O funcție built-in pentru tipurile de date  
+   **Răspuns corect: B**
+
+54. **Cum definim o metodă statică într-o clasă Python?**
+    - A. `@staticmethod`
+    - B. `@classmethod`
+    - C. `@static`
+    - D. `@method_static`  
+   **Răspuns corect: A**
+
+55. **Ce face metoda `__str__` într-o clasă Python?**
+    - A. Convertește un obiect într-un string
+    - B. Convertește un obiect într-un număr întreg
+    - C. Înlocuiește metoda `print` pentru acel obiect
+    - D. Compară două obiecte  
+   **Răspuns corect: A**
+
+56. **Ce este moștenirea în OOP?**
+    - A. Copierea codului dintr-o clasă în alta
+    - B. Extinderea funcționalităților unei clase existente
+    - C. Generarea dinamică a codului
+    - D. Împărțirea clasei în sub-părți  
+   **Răspuns corect: B**
+
+57. **Ce este un atribut de clasă în Python?**
+    - A. O variabilă definită în constructor
+    - B. O variabilă asociată cu o instanță a clasei
+    - C. O variabilă asociată cu clasa în sine
+    - D. O metodă a clasei  
+   **Răspuns corect: C**
+
+58. **Care metoda este folosită pentru a suprascrie un operator în Python?**
+    - A. `__override__()`
+    - B. `__operator__()`
+    - C. `__add__()`
+    - D. `__operate__()`  
+   **Răspuns corect: C**
+
+59. **Ce reprezintă `super()` în Python?**
+    - A. O funcție care returnează un obiect de tip `super`
+    - B. Un apel către metoda din clasa părinte
+    - C. Un apel către toate metodele din clasa actuală
+    - D. O funcție care face un obiect serializabil  
+   **Răspuns corect: B**
+
+60. **Ce este un mixin în Python?**
+    - A. O clasă care furnizează metode ce pot fi folosite în mai multe clase
+    - B. O interfață
+    - C. O clasă abstractă
+    - D. O librărie de metode utilitare  
+   **Răspuns corect: A**
 
