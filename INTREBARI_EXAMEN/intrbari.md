@@ -71,4 +71,74 @@ Intrebari Pentru Examen
     - D. Un program care rulează mai rapid decât echivalentul său în alte limbaje  
    **Răspuns corect: B**
 
-Sper să fie mai aproape de ceea ce căutai. Dacă ai alte nevoi, nu ezita să întrebi!
+1. **Ce înseamnă limbaj de programare cu tipizare dinamică?**
+    - A. Tipurile de date sunt cunoscute la runtime
+    - B. Tipurile de date sunt cunoscute la compilare
+    - C. Toate variabilele sunt de același tip
+    - D. Limbajul nu folosește tipuri de date  
+   **Răspuns corect: A**
+
+2. **Care din următoarele limbaje este cu tipizare statică?**
+    - A. Python
+    - B. Ruby
+    - C. Java
+    - D. JavaScript  
+   **Răspuns corect: C**
+
+3. **Ce este un "lint tool" în programare?**
+    - A. Un instrument pentru debugging
+    - B. Un instrument pentru analiza statică a codului
+    - C. Un instrument pentru testare
+    - D. Un instrument pentru desenat UML  
+   **Răspuns corect: B**
+
+4. **Care este avantajul principal al unui limbaj de programare compilat față de unul interpretat?**
+    - A. Ușor de învățat
+    - B. Viteza de execuție
+    - C. Portabilitatea
+    - D. Comunitate mare  
+   **Răspuns corect: B**
+
+5. **Care este cea mai comună utilizare a limbajului Python?**
+    - A. Dezvoltare de jocuri
+    - B. Scripting și automatizare
+    - C. Sisteme încorporate
+    - D. Dezvoltare de drivere  
+   **Răspuns corect: B**
+
+6. **Ce este un "API" în programare?**
+    - A. Application Programming Interface
+    - B. Advanced Python Interface
+    - C. Automated Performance Index
+    - D. Asynchronous Programming Implementation  
+   **Răspuns corect: A**
+
+7. **Ce este recursivitatea în programare?**
+    - A. Un loop infinit
+    - B. O funcție care se apelează pe ea însăși
+    - C. O funcție care apelează alte funcții
+    - D. O bibliotecă de funcții  
+   **Răspuns corect: B**
+
+8. **Care este principiul DRY în programare?**
+    - A. Don't Reveal Yourself
+    - B. Do Recycle Yarn
+    - C. Don't Repeat Yourself
+    - D. Do Review Yesterday  
+   **Răspuns corect: C**
+
+9. **Ce înseamnă TDD în dezvoltarea software?**
+    - A. Test-Driven Design
+    - B. Test-Driven Development
+    - C. Type-Defined Design
+    - D. Time-Delayed Deployment  
+   **Răspuns corect: B**
+
+10. **Care din următoarele este un exemplu de limbaj de nivel jos (low-level language)?**
+    - A. Python
+    - B. Assembly
+    - C. Java
+    - D. Ruby  
+   **Răspuns corect: B**
+
+
