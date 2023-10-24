@@ -291,7 +291,7 @@
 51. **Ce reprezintă Dependency Inversion?**
     - A. Dependențele ar trebui să fie pe module de nivel înalt
     - B. Dependențele ar trebui să fie între module de același nivel
-    - C. Dependențele de nivel înalt ar trebui să depindă de abstracții, nu de detalii
+    - C. Dependențele de nivel înalt ar trebui să depindă de abstracții, nu de implementari concrete
     - D. Niciunul din cele de mai sus
 
 52. **Ce este polimorfismul?**
