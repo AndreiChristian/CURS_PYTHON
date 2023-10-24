@@ -201,7 +201,7 @@
 34. **Cum elimini elementul cu cheia `'cheie'` din dicționarul `my_dict`?**
     - A. my_dict.delete('cheie')
     - B. my_dict.remove('cheie')
-    - C. del my_dict['cheie']
+    - C. delete_key my_dict['cheie']
     - D. my_dict.pop('cheie')  
 
 35. **Cum verifici dacă o listă `my_list` conține elementul `x`?**
@@ -270,7 +270,7 @@
     - C. 5
     - D. 2  
 
-46. **Cum ai converti numărul întreg `42` într-un șir în Python?**
+46. **Cum ai converti numărul întreg `42` într-un string în Python?**
     - A. str(42)
     - B. 42.toString()
     - C. String(42)
