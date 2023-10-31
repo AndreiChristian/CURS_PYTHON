@@ -151,7 +151,6 @@
     - B. Open/Closed
     - C. Single-responsibility
     - D. Dependency Inversion
-Sigur, iată încă trei întrebări ușoare despre Python:
 
 26. Cum se initializează o listă goală?
     - A. `list = []`
